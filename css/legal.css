@@ -1,0 +1,33 @@
+@import url('menu.css');
+.texto{
+    text-align: center;
+    color: #000;
+
+    margin: 20px 140px 0px 140px;
+}
+
+.logo, .contacto {
+    width: 100%;
+    text-align: center;
+}
+.contacto{
+    margin-top: 30px;
+}
+.contacto .btn_personalizado{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #FFF;
+    background-color: #2196f3;
+    border-radius: 15px;
+    border: 3px double #E3f2fd;
+}
+.contacto .btn_personalizado:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}

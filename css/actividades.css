@@ -1,0 +1,15 @@
+@import url('menu.css');
+
+.lista{
+    align-items: center;
+    margin: 20px 300px 0px 300px;
+    display: grid;
+    grid-area: auto;
+}
+.lista .actividad{
+    display: grid;
+    gap: 0.1rem;
+    align-items: center;
+    align-content: center;
+    grid-auto-flow: column;
+}

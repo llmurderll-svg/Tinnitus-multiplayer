@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+body{
+    font-family: 'Domine', serif;
+    background: linear-gradient(135deg, rgba(63,101,251,1) 5%, rgba(198,72,63,1) 88%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.titulo_head{
+    color: lavenderblush;
+    text-align: center;
+}
+
+.menu_imagenes{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 0.2fr);
+    grid-gap: 5px;
+    justify-content: center;
+    grid-auto-rows: minmax(100px, auto);
+}
+.card {
+    background: cornsilk;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 25px; /* 5px rounded corners */
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  img {
+    border-radius: 5px 5px 0 0;
+    width: 400px;
+    height: 300px;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    color: #000;
+  }
+
+  

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+body{
+    font-family: 'Domine', serif;
+    background: linear-gradient(135deg, rgba(63,101,251,1) 5%, rgba(198,72,63,1) 88%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.titulo_head{
+    color: lavenderblush;
+    text-align: center;
+}
+

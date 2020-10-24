@@ -1,0 +1,29 @@
+@import url('menu.css');
+
+.menu_botones{
+    align-items: center;
+    margin: 20px 300px 0px 300px;
+    display: grid;
+    grid-area: auto;
+}
+
+.menu_botones .btn_meditacion{
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #FFF;
+    background-color: #2196f3;
+    border-radius: 15px;
+    border: 3px double #E3f2fd;
+}
+
+.menu_botones .btn_meditacion:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
